@@ -34,109 +34,71 @@
       </ul>
     </div>
   </nav>
-
+  &nbsp;
   <h2>Contact Me</h2>
-  <p>Complete the following form to contact me.</p>
+  &nbsp;
+  <p>You can contact me by completing the form below,
+    <a href="mailto:rachel.pietersma@gmail.com?Subject=Website%20Inquiry" target="_top">emailing me</a>, or <a href="https://www.linkedin.com/in/rachel-pietersma/" target="_top">connecting on LinkedIn</a>.</p>
+    &nbsp;
+    <div class="container">
 
-  <div class="container">
+      <form class="well form-horizontal" action="http://formspree.io/rachel.pietersma@gmail.com" method="post"  id="contact_form">
+        <!-- Success message -->
+        <div class="alert alert-success" role="alert" id="success-message">
+          <a href="#" class="close" data-dismiss="alert">&times;</a>
+          <i class="fa fa-thumbs-o-up"></i>&nbsp;Thank you for contacting me! I will get back to you shortly.
+        </div>
 
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-      <fieldset>
+        <!-- Name-->
 
-        <!-- Form Name -->
-        <legend>Contact Me Today!</legend>
-
-        <!-- Text input-->
-
+        <input type="hidden" name="_subject" value="Website Inquiry">
         <div class="form-group">
-          <label class="col-md-4 control-label">First Name</label>
-          <div class="col-md-4 inputGroupContainer">
+          <label class="col-md-4 control-label">Name</label>
+          <div class="col-md-4">
             <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-star"></i></span>
-              <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+              <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+              <input  required name="name" placeholder="Name" class="form-control" id="name" type="text">
             </div>
           </div>
         </div>
 
-        <!-- Text input-->
-
+        <!-- Email-->
         <div class="form-group">
-          <label class="col-md-4 control-label" >Last Name</label>
-          <div class="col-md-4 inputGroupContainer">
+          <label class="col-md-4 control-label">Email</label>
+          <div class="col-md-4">
             <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-              <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+              <input name="_replyto" placeholder="Email Address" required class="form-control" id="email" type="email">
             </div>
           </div>
         </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="col-md-4 control-label">E-Mail</label>
-          <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-              <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Text input-->
-
-        <div class="form-group">
-          <label class="col-md-4 control-label">Phone (optional)</label>
-          <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-              <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="col-md-4 control-label">Website (optional)</label>
-          <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-              <input name="website" placeholder="Website or domain name" class="form-control" type="text">
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Text area -->
+        <!-- Message -->
 
         <div class="form-group">
           <label class="col-md-4 control-label">Message</label>
-          <div class="col-md-4 inputGroupContainer">
+          <div class="col-md-4">
             <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-              <textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+              <span class="input-group-addon"><i class="fa fa-comment"></i></span>
+              <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
             </div>
           </div>
         </div>
 
-        <!-- Success message -->
-        <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting me! I will get back to you shortly.</div>
 
         <!-- Button -->
         <div class="form-group">
           <label class="col-md-4 control-label"></label>
           <div class="col-md-4">
-            <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+            <button type="submit" class="btn btn-warning">Send&nbsp;<span class="fa fa-paper-plane"></span></button>
           </div>
         </div>
 
-      </fieldset>
-    </form>
-  </div>
-</div><!-- /.container -->
+      </form>
+    </div>
+  </div><!-- /.container -->
 
 
-<img src="">
+  <img src="">
 </body>
 </html>
