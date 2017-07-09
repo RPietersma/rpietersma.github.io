@@ -1,0 +1,33 @@
+.about-container {
+  width: 100%;
+  padding: 0;
+}
+
+.about-container > div > div {
+  height: calc(100vh - 56px);
+  padding: 2em;
+}
+
+.about-me {
+  background: #3c546c;
+  color: #eee;
+  text-align: right;
+}
+
+.summary-column {
+  color: #333;
+}
+
+.about-me > * {
+  margin-bottom: 20px;
+}
+
+.fa-user {
+  font-size: 140px;
+}
+
+.social-media-links > a {
+  color: #eee;
+  font-size: 40px;
+  margin-left: 5px;
+}
