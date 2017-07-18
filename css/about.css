@@ -30,4 +30,10 @@
   color: #eee;
   font-size: 40px;
   margin-left: 5px;
+
+}
+
+.social-media-links > a:hover {
+  text-decoration: none;
+  color: #ccc;
 }
