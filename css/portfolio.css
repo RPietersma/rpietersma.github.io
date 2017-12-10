@@ -1,0 +1,53 @@
+.portfolio-body {
+  padding: 1em;
+}
+
+.portfolio-squares {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-square {
+  height: 22em;
+  width: 17em;
+  box-shadow: 1px 1px 1px #eee;
+  cursor: pointer;
+}
+
+.portfolio-square:hover {
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+#nikon-square {
+  background: url("../images/nikon_help_guide.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.square-text {
+  width: 100%;
+  height: 25%;
+  opacity: 0.8;
+  background-color: #EAF1FB;
+  padding: 5px 10px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 75%;
+}
+
+.square-title {
+  color: #000;
+  font-size: 18px;
+  font-family: Palatino, Serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.square-description {
+  color: #333;
+  font-size: 14px;
+  font-family: Helvetica, Arial;
+}
