@@ -57,28 +57,28 @@ body {
   font-family: Helvetica, Arial;
 }
 
-#nikon-square {
+#nikon-guide {
   background: url("../images/nikon_help_guide.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-#inputhealth-square {
+#inputhealth-guide {
   background: url("../images/inputhealth_white_paper.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-#qrc-square {
+#qrc-guide {
   background: url("../images/documentation_qrc.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-#other-square {
+#other-guide {
   background: url("../images/nikon_help_guide.png");
   background-size: cover;
   background-repeat: no-repeat;
